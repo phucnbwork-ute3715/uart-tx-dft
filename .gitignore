@@ -1,0 +1,40 @@
+# Generated netlists and synthesis work directories
+/build/
+
+# Vivado generated projects and simulation data
+.Xil/
+*.cache/
+*.runs/
+*.sim/
+*.hw/
+*.ip_user_files/
+xsim.dir/
+*.jou
+*.log
+*.wdb
+*.wcfg
+*.pb
+*.str
+*.vcd
+*.vvp
+*.rpt
+
+# Keep experiment evidence
+!/results/**/*.log
+!/results/*.log
+!/results/**/*.rpt
+!/results/*.rpt
+
+# Python and editor temporary files
+__pycache__/
+*.py[cod]
+.venv/
+*.swp
+*~
+.DS_Store
+Thumbs.db
+
+# Local configuration and reference copies
+.env
+.env.*
+/docs/*.pdf

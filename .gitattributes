@@ -1,0 +1,8 @@
+* text=auto
+*.v text eol=lf
+*.sv text eol=lf
+*.py text eol=lf
+*.ys text eol=lf
+*.md text eol=lf
+*.csv text
+*.log text
